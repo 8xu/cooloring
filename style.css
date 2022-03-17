@@ -13,8 +13,17 @@ main {
 }
 
 main button {
+    font-weight: 600;
     padding: 10px;
     border-radius: 32px;
+    transition: 250ms;
+    border: 0;
+    border-bottom: 3px solid #000;
+    background: lightblue;
+}
+
+main button:active {
+    transform: translateY(5px);
 }
 
 main #color {
